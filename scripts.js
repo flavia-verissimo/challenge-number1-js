@@ -17,11 +17,13 @@
   alert('Divisão: ' + div)
   alert('Resto da divisão: ' + restDiv)
 
-var number = (Number(numberFirst) + Number(numberSecond))
-if (number % 2 == 0) {
-  alert(`O número ${number} é Par!`)
-} else if (number % 2 == 1) {
-   alert(`O número ${number} é Impar!`)
-} 
+  if (sum % 2 == 0) {
+    alert(`O número ${sum} é Par!`)
+  } else {
+    alert(`O número ${sum} é Impar!`)
+  }                                                                                                                      
  
+  if (numberFirst !== numberSecond) {
+    alert("Os números inseridos são diferentes")
+  }
  
